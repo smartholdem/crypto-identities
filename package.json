@@ -1,7 +1,7 @@
 {
     "name": "@smartholdem/crypto-identities",
     "version": "1.1.1",
-    "description": "Standalone version of identity interactions for the SmartHoldem Blockchain. Developed for TypeScript.",
+    "description": "identity interactions for the SmartHoldem Blockchain",
     "license": "MIT",
     "contributors": [
         "TechnoL0g <technolog@smartholdem.io>"
