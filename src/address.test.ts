@@ -123,7 +123,7 @@ describe("Identities - Address", () => {
         });
 
         it("should not be OK", () => {
-            expect(Address.toBuffer("AdVSe37niA3uFUPgCgMUH2tMsHF4LpLoiX", devnet).addressError).not.toBeUndefined();
+            expect(Address.toBuffer("SNAgA2XCRZDKfm5Vu9h4KR1bZw5xn9EiC3", devnet).addressError).not.toBeUndefined();
         });
     });
 
@@ -144,7 +144,7 @@ describe("Identities - Address", () => {
         });
 
         it("should validate MAINNET addresses", () => {
-            expect(Address.validate("AdVSe37niA3uFUPgCgMUH2tMsHF4LpLoiX", mainnet)).toBeTrue();
+            expect(Address.validate("SNAgA2XCRZDKfm5Vu9h4KR1bZw5xn9EiC3", mainnet)).toBeTrue();
         });
 
         it("should validate DEVNET addresses", () => {
