@@ -9,6 +9,11 @@
     "files": [
         "dist"
     ],
+    "keywords": [
+        "smartholdem",
+        "blockchain",
+        "crypto"
+    ],
     "main": "dist/index.js",
     "umd:main": "dist/index.umd.js",
     "browser": "dist/index.bundled.js",
